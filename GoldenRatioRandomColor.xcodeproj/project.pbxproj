@@ -21,6 +21,7 @@
 		F807DA311856EA2E00A60635 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F807DA131856EA2E00A60635 /* UIKit.framework */; };
 		F807DA391856EA2E00A60635 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F807DA371856EA2E00A60635 /* InfoPlist.strings */; };
 		F807DA3B1856EA2E00A60635 /* GoldenRatioRandomColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F807DA3A1856EA2E00A60635 /* GoldenRatioRandomColorTests.m */; };
+		F807DA461856F5F500A60635 /* UIColor+GoldenRatio.m in Sources */ = {isa = PBXBuildFile; fileRef = F807DA451856F5F400A60635 /* UIColor+GoldenRatio.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F807DA361856EA2E00A60635 /* GoldenRatioRandomColorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoldenRatioRandomColorTests-Info.plist"; sourceTree = "<group>"; };
 		F807DA381856EA2E00A60635 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F807DA3A1856EA2E00A60635 /* GoldenRatioRandomColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoldenRatioRandomColorTests.m; sourceTree = "<group>"; };
+		F807DA441856F5F400A60635 /* UIColor+GoldenRatio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GoldenRatio.h"; sourceTree = "<group>"; };
+		F807DA451856F5F400A60635 /* UIColor+GoldenRatio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GoldenRatio.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				F807DA211856EA2E00A60635 /* Main.storyboard */,
 				F807DA241856EA2E00A60635 /* REMViewController.h */,
 				F807DA251856EA2E00A60635 /* REMViewController.m */,
+				F807DA441856F5F400A60635 /* UIColor+GoldenRatio.h */,
+				F807DA451856F5F400A60635 /* UIColor+GoldenRatio.m */,
 				F807DA271856EA2E00A60635 /* Images.xcassets */,
 				F807DA161856EA2E00A60635 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F807DA461856F5F500A60635 /* UIColor+GoldenRatio.m in Sources */,
 				F807DA1C1856EA2E00A60635 /* main.m in Sources */,
 				F807DA201856EA2E00A60635 /* REMAppDelegate.m in Sources */,
 				F807DA261856EA2E00A60635 /* REMViewController.m in Sources */,

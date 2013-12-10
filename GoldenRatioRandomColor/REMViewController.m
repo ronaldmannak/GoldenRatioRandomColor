@@ -7,8 +7,13 @@
 //
 
 #import "REMViewController.h"
+#import "UIColor+GoldenRatio.h"
 
 @interface REMViewController ()
+
+@property (weak, nonatomic) IBOutlet UIView *view1;
+@property (weak, nonatomic) IBOutlet UIView *view2;
+@property (weak, nonatomic) IBOutlet UIView *view3;
 
 @end
 
@@ -18,12 +23,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
-- (void)didReceiveMemoryWarning
+- (IBAction)generate:(id)sender
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    self.view1.backgroundColor = [UIColor ColorWithGoldenRatioValue:drand48()];
+    self.view2.backgroundColor = [UIColor ColorWithGoldenRatioValue:drand48()];
+    self.view3.backgroundColor = [UIColor ColorWithGoldenRatioValue:drand48()];
 }
 
 @end
