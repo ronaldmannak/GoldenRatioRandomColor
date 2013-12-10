@@ -1,5 +1,5 @@
 //
-//  REMViewController.h
+//  REMHomeViewController.h
 //  GoldenRatioRandomColor
 //
 //  Created by Ronald Mannak on 12/9/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface REMViewController : UIViewController
+@interface REMHomeViewController : UICollectionViewController
 
 @end

@@ -14,7 +14,6 @@
 		F807DA1C1856EA2E00A60635 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F807DA1B1856EA2E00A60635 /* main.m */; };
 		F807DA201856EA2E00A60635 /* REMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F807DA1F1856EA2E00A60635 /* REMAppDelegate.m */; };
 		F807DA231856EA2E00A60635 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F807DA211856EA2E00A60635 /* Main.storyboard */; };
-		F807DA261856EA2E00A60635 /* REMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F807DA251856EA2E00A60635 /* REMViewController.m */; };
 		F807DA281856EA2E00A60635 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F807DA271856EA2E00A60635 /* Images.xcassets */; };
 		F807DA2F1856EA2E00A60635 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F807DA2E1856EA2E00A60635 /* XCTest.framework */; };
 		F807DA301856EA2E00A60635 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F807DA0F1856EA2E00A60635 /* Foundation.framework */; };
@@ -22,6 +21,7 @@
 		F807DA391856EA2E00A60635 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F807DA371856EA2E00A60635 /* InfoPlist.strings */; };
 		F807DA3B1856EA2E00A60635 /* GoldenRatioRandomColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F807DA3A1856EA2E00A60635 /* GoldenRatioRandomColorTests.m */; };
 		F807DA461856F5F500A60635 /* UIColor+GoldenRatio.m in Sources */ = {isa = PBXBuildFile; fileRef = F807DA451856F5F400A60635 /* UIColor+GoldenRatio.m */; };
+		F807DA491856F75E00A60635 /* REMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F807DA481856F75E00A60635 /* REMHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,6 @@
 		F807DA1E1856EA2E00A60635 /* REMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = REMAppDelegate.h; sourceTree = "<group>"; };
 		F807DA1F1856EA2E00A60635 /* REMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = REMAppDelegate.m; sourceTree = "<group>"; };
 		F807DA221856EA2E00A60635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F807DA241856EA2E00A60635 /* REMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = REMViewController.h; sourceTree = "<group>"; };
-		F807DA251856EA2E00A60635 /* REMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = REMViewController.m; sourceTree = "<group>"; };
 		F807DA271856EA2E00A60635 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F807DA2D1856EA2E00A60635 /* GoldenRatioRandomColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldenRatioRandomColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F807DA2E1856EA2E00A60635 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -56,6 +54,8 @@
 		F807DA3A1856EA2E00A60635 /* GoldenRatioRandomColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoldenRatioRandomColorTests.m; sourceTree = "<group>"; };
 		F807DA441856F5F400A60635 /* UIColor+GoldenRatio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GoldenRatio.h"; sourceTree = "<group>"; };
 		F807DA451856F5F400A60635 /* UIColor+GoldenRatio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GoldenRatio.m"; sourceTree = "<group>"; };
+		F807DA471856F75E00A60635 /* REMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMHomeViewController.h; sourceTree = "<group>"; };
+		F807DA481856F75E00A60635 /* REMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMHomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +118,8 @@
 				F807DA1E1856EA2E00A60635 /* REMAppDelegate.h */,
 				F807DA1F1856EA2E00A60635 /* REMAppDelegate.m */,
 				F807DA211856EA2E00A60635 /* Main.storyboard */,
-				F807DA241856EA2E00A60635 /* REMViewController.h */,
-				F807DA251856EA2E00A60635 /* REMViewController.m */,
+				F807DA471856F75E00A60635 /* REMHomeViewController.h */,
+				F807DA481856F75E00A60635 /* REMHomeViewController.m */,
 				F807DA441856F5F400A60635 /* UIColor+GoldenRatio.h */,
 				F807DA451856F5F400A60635 /* UIColor+GoldenRatio.m */,
 				F807DA271856EA2E00A60635 /* Images.xcassets */,
@@ -258,7 +258,7 @@
 				F807DA461856F5F500A60635 /* UIColor+GoldenRatio.m in Sources */,
 				F807DA1C1856EA2E00A60635 /* main.m in Sources */,
 				F807DA201856EA2E00A60635 /* REMAppDelegate.m in Sources */,
-				F807DA261856EA2E00A60635 /* REMViewController.m in Sources */,
+				F807DA491856F75E00A60635 /* REMHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

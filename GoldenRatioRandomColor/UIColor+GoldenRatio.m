@@ -31,6 +31,18 @@ static const double goldenRatioConjugate = 0.618033988749895;
  */
 
 
+/*
+ 
+ http://devmag.org.za/2012/07/29/how-to-choose-colours-procedurally-algorithms/
+ 
+ offset = Random.NextFloat();
+ 
+ for (int i = 0; i < n; i++)
+ color[i] = gradient.GetColor(offset + (0.618033988749895f * i) % 1);
+ 
+ */
+
+
  // http://craigcoded.com/2010/11/30/getting-hsv-from-uicolor/
 /*
  +(struct hsv_color)HSVfromRGB:(struct rgb_color)rgb
